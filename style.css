@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  /* nav hover */
+a:hover{
+    color: yellow;
+}
+.button1:hover{
+    background-color: orange;
+    color: black;
+    border: none;
+}
+.button1{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+}
+h1{
+    font-size: 40px;
+    font-weight: 30px;
+    cursor: pointer;
+}
