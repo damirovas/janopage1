@@ -3,12 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100%;
+    width: 100%;
+}
 header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+
 }
 a{
     margin: 10px;
@@ -41,4 +46,73 @@ h1{
     font-size: 40px;
     font-weight: 30px;
     cursor: pointer;
+}
+main{
+    background-image: url(https://jano.ibthemespro.com/img/screen_01.png);
+    /* background-size: ;
+    overflow: hidden;
+    overflow-wrap: normal; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    
+
+    
+    
+   
+}
+
+
+.slogan1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+   
+     
+}
+.slogan2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px ;
+}
+/* .slogan3{
+    display: flex;
+    justify-content: center;
+    margin: 30px;     
+} */
+.numbers{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.slogan5{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+}
+.updown{
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+
+}
+@keyframes updown {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
